@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">listener</string>
+    <string name="to">TO</string>
+    <string name="send">send</string>
+
+    <string name="text">Text</string>
+    <string name="sub">SUb</string>
+
+    <string name="todo">TODO</string>
+</resources>
