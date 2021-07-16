@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         if(rq.contains("open")){
             String web_url="";
             if(rq.contains("facebook")){
-                web_url="https://www.facebook.com/?_rdc=2&_rdr";
+                web_url="(url of your fb account)";
             }
             if(rq.contains("youtube")){
                 web_url="https://www.youtube.com/";
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
         else if(rq.contains("video call")){
-            String web_url="https://www.facebook.com/videocall/incall/?peer_id=100004682310328";
+            String web_url=" (url of the persons massanger call) ";
             Intent video_intent=new Intent(Intent.ACTION_VIEW);
             video_intent.setData(Uri.parse(web_url));
             startActivity(video_intent);
